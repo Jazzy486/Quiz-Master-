@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbb669f7325194ea37f752f2a8a755, type: 3}
   m_Name: Question 3
   m_EditorClassIdentifier: 
-  question: Who won the 2003 cricket world cup?
+  question: Number 1 all-rounder currently in cricket?
+  answers:
+  - Ben Stokes
+  - Shakib-al-Hasan
+  - 'Hardik Pandya '
+  - Imad Wasim
+  correctAnswerIndex: 1

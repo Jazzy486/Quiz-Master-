@@ -8,17 +8,17 @@ public class Timer : MonoBehaviour
     [SerializeField] float TimeToShowAnswer = 10f;
 
     public bool loadNextQuestion;
-    public bool isAnsweringQuestion = false;
+    public bool isAnsweringQuestion;
     public float fillAmount;
     
-    float TimerValue;
+    public float TimerValue;
     
     void Update()
     {
         TimerUpdate();  
     }
 
-    void CancelTimer()
+    public void CancelTimer()
     {
         TimerValue = 0; 
     }

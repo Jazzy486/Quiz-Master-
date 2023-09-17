@@ -1492,15 +1492,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4338228843b0001479b1deabfbe1a751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: {fileID: 11400000, guid: 7b7fee063ee80914ba239fbbdd13d061, type: 2}
   questionText: {fileID: 1127774881}
+  questions:
+  - {fileID: 11400000, guid: 7b7fee063ee80914ba239fbbdd13d061, type: 2}
+  - {fileID: 11400000, guid: 28a99080693b35343b86ef658b75d59e, type: 2}
+  - {fileID: 11400000, guid: c25444c8971a59b46bc8eba56ba7af9c, type: 2}
+  - {fileID: 11400000, guid: 1b5aba35e808f6a45b386c5d84f959b1, type: 2}
+  - {fileID: 11400000, guid: 88ade7a33d097184f9f4af6cc4f71f22, type: 2}
   answerButtons:
   - {fileID: 789754994}
   - {fileID: 793972048}
   - {fileID: 436389899}
   - {fileID: 883105647}
+  hasAnsweredEarly: 0
   defaultAnwerSprite: {fileID: 21300000, guid: 350912e468b1d25458e3a9c321b84550, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: 5a29bce7eb375394ebb8e45676dd7edf, type: 3}
+  timerImage: {fileID: 2105289202}
 --- !u!1 &1127774879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,8 +1775,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeToCompleteQuestion: 5
-  TimeToShowAnswer: 10
+  TimeToShowAnswer: 2
+  loadNextQuestion: 0
   isAnsweringQuestion: 0
+  fillAmount: 0
+  TimerValue: 0
 --- !u!4 &1566874891
 Transform:
   m_ObjectHideFlags: 0

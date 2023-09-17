@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Who won the 2011 cricket world cup?
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswerIndex: 0
+  - 'Pakistan '
+  - 'Australia '
+  - 'India '
+  - 'West Indies '
+  correctAnswerIndex: 2
